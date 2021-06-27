@@ -1,0 +1,251 @@
+ *{
+	margin: 0;
+}
+#hospital{
+	width: 30px;
+	height: 30px;
+	padding-top: 5px;
+}
+#name{
+	font-family: helvetica;
+	font-size: 30px;
+	color: white;
+	text-align: left;
+	text-indent: 20px;
+}
+
+.navbar{
+	background: #416788;
+	width: 70%;
+	height: 45px;
+	float: left;
+}
+#username{
+	width: 10%;
+	float: left;
+	background: #416788;
+	height: 45px;
+}
+#edit{
+	width: 10%;
+	background: #81D2c7;
+	float: left;
+	height: 45px;
+}
+#edit:hover{
+	background: #81D2c7;
+	opacity: 0.6;
+}
+#logout{
+	width: 10%;
+	background: #b5bad0;
+	float: left;
+	height: 45px;
+}
+#logout:hover{
+	background:#b5bad0;
+	opacity: 0.6;
+}
+#menu{
+	background: #7699d4;
+	width: 20%;
+	height: 45px;
+	border-bottom: 1px solid #416788;
+	float: left;
+}
+#menulist{
+	background: #7699d4;
+	width: 20%;
+	height:100vh;
+}
+ul{
+	box-sizing: border-box;
+}
+ul li{
+	font-family: verdana;
+	background: #7699d4;
+	border-bottom: 1px solid #416788;
+	line-height: 50px;
+	list-style: none;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+ul li:hover{
+	background: #b5bad0;
+	
+}
+
+.htitle{
+	font-family: Arial;
+	margin-top: 85px;
+	text-indent:20px;
+	color: #5d576b;
+}
+.area{
+	overflow: hidden;
+	overflow-y: scroll;
+	background: white;
+	float: right;
+	width: 80%;
+	height: calc(100vh - 45px);
+	box-sizing: border-box;
+}
+.tbl2{
+	margin: 30px auto;
+	border-collapse: collapse;
+	
+}
+.tbl2, .th2, .td2 {
+	border: 1px solid #b5bad0;
+	text-align: left;
+
+	}
+.th2{
+	color: #5d576b;
+	font-family: helvetica;
+	font-weight: 500px;
+	padding: 5px;
+}
+.td2:empty::before{
+	content: "N/A";
+	color: red;
+}
+
+.tbl{
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+.th{
+	text-align: left;
+	border: none;
+	border-bottom: 1px solid #b5bad0;
+	color: #5d576b;
+	font-family: helvetica;
+	font-weight: 500px;
+	padding: 10px;
+}
+.td{
+	font-family: verdana;
+	font-size: 12px;
+	padding: 15px;
+	border: none;
+	border-bottom: 1px solid #b5bad0;
+}
+.td:empty::before{
+	content: "N/A";
+	color: red;
+}
+.tr{
+
+	padding: 20px;
+}
+.tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+.form{
+	width: 60%;
+	margin: 40px ;
+	padding: 5px;
+	border: 1px solid #B0C4DE;
+	background: white;
+}
+.edit{
+	margin: 10px 0px 10px 0px;
+}
+.edit label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.edit input{
+	height: 15px;
+	width: 93%;
+	padding: 6px 10px;
+	font-size: 16px;
+	border: 1px solid #b0c4de;
+}
+.btn {
+ padding: 10px;
+ font-size: 15px;
+ width: 30%;
+ color: white;
+ background: #416788;
+ border: none;
+ border-radius: 5px;
+}
+.btn:hover{
+	background: #7699d4;
+}
+#view{
+	text-decoration: none;
+	padding: 5px;
+	background: #416788;
+	color: white;
+	border-radius: 5px;
+
+}
+#area2{
+	overflow: hidden;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	background: white;
+	float: right;
+	width: 80%;
+	height: calc(100vh - 45px);
+	box-sizing: border-box;
+}
+#search{
+	margin-left: 20px;
+	padding: 20px;
+}
+#search input{
+	height: 25px;
+	width: 300px;
+}
+#search button{
+	background: #416788;
+	width: 50px;
+	color: white;
+	border-radius: 20px;
+}
+.wala{
+	margin: 40px ;
+	background: white;
+}
+::-webkit-scrollbar{
+	width: 1px;
+}
+::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 2px white;
+}
+::-webkit-scrollbar-thumb{
+	background: grey;
+	border-radius:1px;
+}
+#menus{
+	height: 50px;
+	width: 50px;
+	float: right;
+	
+}
+#userpng{
+	padding-top: 5px;
+	padding-right: 10px;
+	height: 35px;
+	width: 35px;
+	float: right;
+}
+#editpng{
+		height: 45px;
+	width: 45px;
+	float: right;
+}
+#logoutpng{
+	padding-top: 5px;
+	padding-right: 5px;
+	height: 40px;
+	width: 30px;
+	float: right;
+}
