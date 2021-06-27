@@ -1,0 +1,55 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	font-size: 120%;
+	background: url("images/bkg.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.heading{
+	margin: 50px;
+	text-align: center;
+	display: block;
+}
+
+#hospital{
+	width: 100px;
+	height: 100px;
+	padding-top: 5px;
+}
+form {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 10px;
+}
+.loginadmin{
+	margin: 10px 0px 10px 0px;
+}
+.loginadmin input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border:none;
+	border-bottom: 1px solid blue;
+}
+.btn {
+ padding: 10px;
+ font-size: 15px;
+ color: white;
+ width: 98%;
+ background: #416788;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.btn:hover{
+	background: #7699d4;
+}
